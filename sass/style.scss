@@ -1,9 +1,9 @@
-body{
+body {
  margin: 0;
  font-family: sans-serif;
 }
 
-header{
+header {
   #backBox{
     background-color: white;
     width: 100%;
@@ -12,7 +12,7 @@ header{
   }
 
 
-  #logo img{
+  #logo img {
     text-align: center;
     width: 270px;
     height: auto;
@@ -26,7 +26,7 @@ header{
   }
 }
 
-nav{
+nav {
   height: 38px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -34,10 +34,10 @@ nav{
   background-color: #white;
   border: 1px solid red;
 
-  #navLogo{
+  #navLogo {
     float: left;
 
-    img{
+    img {
       height: 40px;
       width: auto;
       margin-top: 0;
@@ -47,6 +47,7 @@ nav{
   ul{
     list-style: none;
     margin-top: 0;
+    width: 100%;
 
     li{
       display: inline-block;
@@ -64,5 +65,90 @@ nav{
         flex: 1;
       }
     }
+  }
+}
+
+#mainBox {
+    background-color: red;
+    height: 70px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 50px;
+    .sortBox {
+      height: 70px;
+      width: 110px;
+      float: right;
+      margin-left: 5px;
+    }
+    .green {
+      background-color: #4cd137;
+      font-style: bold;
+    }
+    .red {
+      background-color: #273c75;
+      font-style: bold;
+    }
+
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 75%;
+  text-align: center;
+  .prevBox {
+    position: relative;
+    height: 220px;
+    width: 250px;
+    background-color: #7f8fa6;
+
+    img{
+      // width: 240px;
+      // height: auto;
+    }
+    .preview{
+      position: absolute;
+      bottom: 0;
+      margin: 0 auto;
+      height: 30px;
+      width: 230px;
+      background-color: #0097e6;
+      padding: 5px;
+      text-align: center;
+      margin: 5px;
+      vertical-align: middle;
+      h3{
+        margin: 0;
+        margin-top: 5px;
+      }
+    }
+    .coupon {
+      height: 25px;
+      width: 25px;
+      float: right;
+      margin-top: 0;
+      background-color: blue;
+    }
+    .box1 {
+      flex: 1;
+    }
+
+    .box2 {
+      flex: 1;
+
+      }
+
+    .box3 {
+      flex: 1;
+
+      }
+
+    .box4{
+      flex: 1;
+
+      }
+
   }
 }

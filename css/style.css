@@ -33,7 +33,8 @@ nav {
       margin-top: 0; }
   nav ul {
     list-style: none;
-    margin-top: 0; }
+    margin-top: 0;
+    width: 100%; }
     nav ul li {
       display: inline-block;
       padding: 10px 50px;
@@ -46,5 +47,64 @@ nav {
         color: white; }
       nav ul li .flexNav {
         flex: 1; }
+
+#mainBox {
+  background-color: red;
+  height: 70px;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 50px; }
+  #mainBox .sortBox {
+    height: 70px;
+    width: 110px;
+    float: right;
+    margin-left: 5px; }
+  #mainBox .green {
+    background-color: #4cd137;
+    font-style: bold; }
+  #mainBox .red {
+    background-color: #273c75;
+    font-style: bold; }
+
+.mainContent {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 75%;
+  text-align: center; }
+  .mainContent .prevBox {
+    position: relative;
+    height: 220px;
+    width: 250px;
+    background-color: #7f8fa6; }
+    .mainContent .prevBox .preview {
+      position: absolute;
+      bottom: 0;
+      margin: 0 auto;
+      height: 30px;
+      width: 230px;
+      background-color: #0097e6;
+      padding: 5px;
+      text-align: center;
+      margin: 5px;
+      vertical-align: middle; }
+      .mainContent .prevBox .preview h3 {
+        margin: 0;
+        margin-top: 5px; }
+    .mainContent .prevBox .coupon {
+      height: 25px;
+      width: 25px;
+      float: right;
+      margin-top: 0;
+      background-color: blue; }
+    .mainContent .prevBox .box1 {
+      flex: 1; }
+    .mainContent .prevBox .box2 {
+      flex: 1; }
+    .mainContent .prevBox .box3 {
+      flex: 1; }
+    .mainContent .prevBox .box4 {
+      flex: 1; }
 
 /*# sourceMappingURL=style.css.map */

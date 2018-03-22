@@ -33,6 +33,7 @@ nav{
   padding: 0px;
   background-color: #white;
   border: 1px solid red;
+
   #navLogo{
     float: left;
 
@@ -42,23 +43,26 @@ nav{
       margin-top: 0;
     }
   }
+
   ul{
     list-style: none;
     margin-top: 0;
-    li{
 
+    li{
       display: inline-block;
       padding: 10px 50px;
       background-color: red;
       margin-left: 0.05px;
       margin-right: 0.05px;
+
       a{
         text-decoration: none;
         font-weight: bold;
         color: white;
-
       }
-
+      .flexNav {
+        flex: 1;
+      }
     }
   }
 }

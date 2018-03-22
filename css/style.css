@@ -44,5 +44,7 @@ nav {
         text-decoration: none;
         font-weight: bold;
         color: white; }
+      nav ul li .flexNav {
+        flex: 1; }
 
 /*# sourceMappingURL=style.css.map */

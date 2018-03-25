@@ -34,7 +34,6 @@ nav {
   nav ul {
     list-style: none;
     margin-top: 0;
-    width: 100%;
     margin-left: 100px;
     height: 40px; }
     nav ul li {
@@ -114,11 +113,14 @@ nav {
       float: right;
       margin-top: 0;
       background-color: blue; }
+    #mainContent .prevBox .priceText {
+      float: right;
+      width: 30%;
+      margin-top: 30px; }
     #mainContent .prevBox img {
-      position: relative;
       margin-top: 6px;
       margin-left: 6px;
-      width: 170px;
+      width: 150px;
       height: 163px; }
     #mainContent .prevBox .preview {
       position: absolute;

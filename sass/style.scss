@@ -11,8 +11,6 @@ header {
     height: 250px;
     margin-bottom: 0px;
   }
-
-
   #logo img {
     text-align: center;
     width: 270px;
@@ -23,7 +21,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-
   }
 }
 
@@ -33,21 +30,17 @@ nav {
   padding: 0px;
   background-color: #f5f6fa;
   border: 1px solid #ff3838;
-
   #navLogo {
     float: left;
-
     img {
       height: 40px;
       width: auto;
       margin-top: 0;
     }
   }
-
   ul{
     list-style: none;
     margin-top: 0;
-    width: 100%;
     margin-left: 100px;
     height: 40px;
 
@@ -57,6 +50,7 @@ nav {
       background-color: #ff3838;
       margin-left: 0.05px;
       margin-right: 0.05px;
+
       #homeIcon{
         height: 39px;
         width: auto;
@@ -75,6 +69,7 @@ nav {
         color: white;
         padding: 10px 50px;
         border: 1px solid red;
+
       }
       a:hover {
         background-color: white;
@@ -84,9 +79,7 @@ nav {
   }
   #navSearch{
     float: right;
-
   }
-
 }
 
 #mainBox {
@@ -125,7 +118,6 @@ nav {
       background-color: green;
       font-style: bold;
     }
-
 }
 
 #mainContent {
@@ -134,13 +126,14 @@ nav {
   margin: 0 auto;
   margin-top: 70px;
   width: 75%;
+  #row1{
 
+  }
   .prevBox {
     position: relative;
     height: 220px;
     width: 250px;
     background-color: #485460;
-
     .coupon {
       height: 25px;
       width: 25px;
@@ -148,11 +141,15 @@ nav {
       margin-top: 0;
       background-color: blue;
     }
+    .priceText{
+      float: right;
+      width: 30%;
+      margin-top: 30px;
+    }
     img{
-      position: relative;
       margin-top: 6px;
       margin-left: 6px;
-      width: 170px;
+      width: 150px;
       height: 163px;
     }
     .preview{

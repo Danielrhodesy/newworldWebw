@@ -1,11 +1,12 @@
 body {
  margin: 0;
  font-family: sans-serif;
+background-color: #808e9b;
 }
 
 header {
   #backBox{
-    background-color: white;
+    background-color: #ff3838;
     width: 100%;
     height: 250px;
     margin-bottom: 0px;
@@ -28,11 +29,10 @@ header {
 
 nav {
   height: 38px;
-  margin-top: 0px;
   margin-bottom: 0px;
   padding: 0px;
-  background-color: #white;
-  border: 1px solid red;
+  background-color: #f5f6fa;
+  border: 1px solid #ff3838;
 
   #navLogo {
     float: left;
@@ -48,65 +48,112 @@ nav {
     list-style: none;
     margin-top: 0;
     width: 100%;
+    margin-left: 100px;
+    height: 40px;
 
     li{
       display: inline-block;
-      padding: 10px 50px;
-      background-color: red;
+      padding: 10px 0px;
+      background-color: #ff3838;
       margin-left: 0.05px;
       margin-right: 0.05px;
+      #homeIcon{
+        height: 39px;
+        width: auto;
+        padding: 0;
+      }
+      img{
+        height: 35px;
+        width: auto;
+        margin: 0;
+        margin-top: 0px;
+      }
 
       a{
         text-decoration: none;
         font-weight: bold;
         color: white;
+        padding: 10px 50px;
+        border: 1px solid red;
       }
-      .flexNav {
-        flex: 1;
+      a:hover {
+        background-color: white;
+        color: red;
       }
     }
   }
+  #navSearch{
+    float: right;
+
+  }
+
 }
 
 #mainBox {
-    background-color: red;
+    background-color: white;
     height: 70px;
     width: 75%;
     margin: 0 auto;
     margin-top: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ff3838;
+    input {
+      padding: 6px;
+      margin-top: 17px;
+      margin-left: 35px;
+      font-size: 17px;
+      width: 300px;
+      border-color: #ff3838;
+    }
     .sortBox {
       height: 70px;
       width: 110px;
       float: right;
       margin-left: 5px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 65px;
     }
     .green {
-      background-color: #4cd137;
+      background-color: #ff3838;
       font-style: bold;
     }
     .red {
-      background-color: #273c75;
+      background-color: green;
       font-style: bold;
     }
 
 }
 
-.mainContent {
+#mainContent {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
   margin-top: 70px;
   width: 75%;
-  text-align: center;
+
   .prevBox {
     position: relative;
     height: 220px;
     width: 250px;
-    background-color: #7f8fa6;
+    background-color: #485460;
 
+    .coupon {
+      height: 25px;
+      width: 25px;
+      float: right;
+      margin-top: 0;
+      background-color: blue;
+    }
     img{
-      // width: 240px;
-      // height: auto;
+      position: relative;
+      margin-top: 6px;
+      margin-left: 6px;
+      width: 170px;
+      height: 163px;
     }
     .preview{
       position: absolute;
@@ -124,31 +171,18 @@ nav {
         margin-top: 5px;
       }
     }
-    .coupon {
-      height: 25px;
-      width: 25px;
-      float: right;
-      margin-top: 0;
-      background-color: blue;
-    }
+
     .box1 {
       flex: 1;
     }
-
     .box2 {
       flex: 1;
-
       }
-
     .box3 {
       flex: 1;
-
       }
-
     .box4{
       flex: 1;
-
       }
-
   }
 }

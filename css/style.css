@@ -32,13 +32,18 @@ nav {
       width: auto;
       margin-top: 0; }
   nav ul {
+    position: absolute;
+    white-space: nowrap;
     list-style: none;
     margin-top: 0;
     margin-left: 100px;
     height: 40px; }
+    nav ul .navFlex {
+      display: flex;
+      flex-wrap: nowrap; }
     nav ul li {
+      position: relative;
       display: inline-block;
-      padding: 10px 0px;
       background-color: #ff3838;
       margin-left: 0.05px;
       margin-right: 0.05px; }
@@ -97,8 +102,6 @@ nav {
     font-style: bold; }
 
 #mainContent {
-  display: flex;
-  justify-content: space-around;
   margin: 0 auto;
   margin-top: 70px;
   width: 75%; }
@@ -125,7 +128,6 @@ nav {
     #mainContent .prevBox .preview {
       position: absolute;
       bottom: 0;
-      margin: 0 auto;
       height: 30px;
       width: 230px;
       background-color: #0097e6;
@@ -136,13 +138,27 @@ nav {
       #mainContent .prevBox .preview h3 {
         margin: 0;
         margin-top: 5px; }
-    #mainContent .prevBox .box1 {
+  #mainContent #row1 {
+    display: flex;
+    justify-content: space-around; }
+    #mainContent #row1 .box1 {
       flex: 1; }
-    #mainContent .prevBox .box2 {
+    #mainContent #row1 .box2 {
       flex: 1; }
-    #mainContent .prevBox .box3 {
+    #mainContent #row1 .box3 {
       flex: 1; }
-    #mainContent .prevBox .box4 {
+    #mainContent #row1 .box4 {
+      flex: 1; }
+  #mainContent #row2 {
+    display: flex;
+    justify-content: space-around; }
+    #mainContent #row2 .box5 {
+      flex: 1; }
+    #mainContent #row2 .box6 {
+      flex: 1; }
+    #mainContent #row2 .box7 {
+      flex: 1; }
+    #mainContent #row2 .box8 {
       flex: 1; }
 
 /*# sourceMappingURL=style.css.map */

@@ -39,14 +39,20 @@ nav {
     }
   }
   ul{
+    position: absolute;
+    // FIx when resizing
+    white-space: nowrap;
     list-style: none;
     margin-top: 0;
     margin-left: 100px;
     height: 40px;
-
+    .navFlex {
+      display: flex;
+      flex-wrap: nowrap;
+    }
     li{
+      position: relative;
       display: inline-block;
-      padding: 10px 0px;
       background-color: #ff3838;
       margin-left: 0.05px;
       margin-right: 0.05px;
@@ -121,14 +127,9 @@ nav {
 }
 
 #mainContent {
-  display: flex;
-  justify-content: space-around;
   margin: 0 auto;
   margin-top: 70px;
   width: 75%;
-  #row1{
-
-  }
   .prevBox {
     position: relative;
     height: 220px;
@@ -155,7 +156,6 @@ nav {
     .preview{
       position: absolute;
       bottom: 0;
-      margin: 0 auto;
       height: 30px;
       width: 230px;
       background-color: #0097e6;
@@ -163,23 +163,45 @@ nav {
       text-align: center;
       margin: 5px;
       vertical-align: middle;
-      h3{
-        margin: 0;
-        margin-top: 5px;
+        h3{
+          margin: 0;
+          margin-top: 5px;
+        }
       }
+    }
+    #row1{
+      display: flex;
+      justify-content: space-around;
+
+      .box1 {
+        flex: 1;
+      }
+      .box2 {
+        flex: 1;
+        }
+      .box3 {
+        flex: 1;
+        }
+      .box4{
+        flex: 1;
+        }
+    }
+    #row2 {
+      display: flex;
+      justify-content: space-around;
+      .box5 {
+        flex: 1;
+      }
+      .box6 {
+        flex: 1;
+        }
+      .box7 {
+        flex: 1;
+        }
+      .box8 {
+        flex: 1;
+        }
+
     }
 
-    .box1 {
-      flex: 1;
-    }
-    .box2 {
-      flex: 1;
-      }
-    .box3 {
-      flex: 1;
-      }
-    .box4{
-      flex: 1;
-      }
-  }
 }

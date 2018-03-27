@@ -1,10 +1,10 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: #808e9b; }
+  background-color: #2f3542; }
 
 header #backBox {
-  background-color: #ff3838;
+  background-color: #EA2027;
   width: 100%;
   height: 250px;
   margin-bottom: 0px; }
@@ -22,9 +22,7 @@ header #logo img {
 nav {
   height: 38px;
   margin-bottom: 0px;
-  padding: 0px;
-  background-color: #f5f6fa;
-  border: 1px solid #ff3838; }
+  background-color: #ff5e57; }
   nav #navLogo {
     float: left; }
     nav #navLogo img {
@@ -44,39 +42,36 @@ nav {
     nav ul li {
       position: relative;
       display: inline-block;
-      background-color: #ff3838;
+      background-color: #EA2027;
       margin-left: 0.05px;
       margin-right: 0.05px; }
-      nav ul li #homeIcon {
-        height: 39px;
-        width: auto;
-        padding: 0; }
-      nav ul li img {
-        height: 35px;
-        width: auto;
-        margin: 0;
-        margin-top: 0px; }
       nav ul li a {
         text-decoration: none;
         font-weight: bold;
         color: white;
-        padding: 10px 50px;
-        border: 1px solid red; }
+        padding: 10px 50px 10px 50px; }
       nav ul li a:hover {
         background-color: white;
-        color: red; }
-  nav #navSearch {
-    float: right; }
+        color: #EA2027;
+        text-decoration: underline; }
+  nav #navSearch input {
+    float: right;
+    padding: 4px;
+    margin-top: 3.5px;
+    margin-right: 30px;
+    font-size: 15px;
+    width: 280px;
+    border-color: #ff3838; }
 
 #mainBox {
-  background-color: white;
+  background-color: #EA2027;
   height: 70px;
   width: 75%;
   margin: 0 auto;
   margin-top: 50px;
   border-style: solid;
   border-width: 1px;
-  border-color: #ff3838; }
+  border-color: #EA2027; }
   #mainBox input {
     padding: 6px;
     margin-top: 17px;
@@ -87,6 +82,7 @@ nav {
   #mainBox .sortBox {
     height: 70px;
     width: 110px;
+    margin-top: 0;
     float: right;
     margin-left: 5px;
     text-align: center;
@@ -95,31 +91,141 @@ nav {
     font-size: 20px;
     line-height: 65px; }
   #mainBox .green {
-    background-color: #ff3838;
+    background-color: red;
     font-style: bold; }
+    #mainBox .green a {
+      text-decoration: none;
+      color: white;
+      padding: 22px 18px 27px 17.5px; }
+    #mainBox .green a:hover {
+      background-color: white;
+      color: red;
+      text-decoration: underline; }
   #mainBox .red {
-    background-color: green;
+    background-color: #4cd137;
     font-style: bold; }
+    #mainBox .red a {
+      text-decoration: none;
+      color: white;
+      padding: 22px 42px 27px 42px; }
+    #mainBox .red a:hover {
+      background-color: white;
+      color: #4cd137;
+      text-decoration: underline; }
 
 #mainContent {
   margin: 0 auto;
   margin-top: 70px;
-  width: 75%; }
+  max-width: 85%; }
+  #mainContent #row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    #mainContent #row1 .box1 {
+      flex: 1; }
+      #mainContent #row1 .box1 .preview {
+        background-color: red;
+        border: 1px solid black; }
+    #mainContent #row1 .box2 {
+      flex: 1; }
+      #mainContent #row1 .box2 .preview {
+        background-color: #4cd137;
+        border: 1px solid black; }
+    #mainContent #row1 .box3 {
+      flex: 1; }
+      #mainContent #row1 .box3 .preview {
+        background-color: #4cd137;
+        border: 1px solid black; }
+    #mainContent #row1 .box4 {
+      flex: 1; }
+      #mainContent #row1 .box4 .preview {
+        background-color: red;
+        border: 1px solid black; }
+  #mainContent #row2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around; }
+    #mainContent #row2 .box5 {
+      flex: 1; }
+      #mainContent #row2 .box5 .preview {
+        background-color: #4cd137;
+        border: 1px solid black; }
+    #mainContent #row2 .box6 {
+      flex: 1; }
+      #mainContent #row2 .box6 .preview {
+        background-color: red;
+        border: 1px solid black; }
+    #mainContent #row2 .box7 {
+      flex: 1; }
+      #mainContent #row2 .box7 .preview {
+        background-color: #4cd137;
+        border: 1px solid black; }
+    #mainContent #row2 .box8 {
+      flex: 1; }
+      #mainContent #row2 .box8 .preview {
+        background-color: red;
+        border: 1px solid black; }
+  #mainContent #row3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around; }
+    #mainContent #row3 .box9 {
+      flex: 1; }
+      #mainContent #row3 .box9 .preview {
+        background-color: #4cd137;
+        border: 1px solid black; }
+    #mainContent #row3 .box10 {
+      flex: 1; }
+      #mainContent #row3 .box10 .preview {
+        background-color: red;
+        border: 1px solid black; }
+    #mainContent #row3 .box11 {
+      flex: 1; }
+      #mainContent #row3 .box11 .preview {
+        background-color: #4cd137;
+        border: 1px solid black; }
+    #mainContent #row3 .box12 {
+      flex: 1; }
+      #mainContent #row3 .box12 .preview {
+        background-color: #4cd137;
+        border: 1px solid black; }
+  #mainContent #row4 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px; }
+    #mainContent #row4 .box13 {
+      flex: 1; }
+      #mainContent #row4 .box13 .preview {
+        background-color: #4cd137;
+        border: 1px solid black; }
+    #mainContent #row4 .box14 {
+      flex: 1; }
+      #mainContent #row4 .box14 .preview {
+        background-color: #4cd137;
+        border: 1px solid black; }
+    #mainContent #row4 .box15 {
+      flex: 1; }
+      #mainContent #row4 .box15 .preview {
+        background-color: red;
+        border: 1px solid black; }
+    #mainContent #row4 .box16 {
+      flex: 1; }
+      #mainContent #row4 .box16 .preview {
+        background-color: #4cd137;
+        border: 1px solid black; }
   #mainContent .prevBox {
     position: relative;
     height: 220px;
     width: 250px;
-    background-color: #485460; }
-    #mainContent .prevBox .coupon {
-      height: 25px;
-      width: 25px;
-      float: right;
-      margin-top: 0;
-      background-color: blue; }
+    max-width: 250px;
+    background-color: #EA2027; }
     #mainContent .prevBox .priceText {
       float: right;
       width: 30%;
-      margin-top: 30px; }
+      margin-top: 30px;
+      margin-right: 10px;
+      color: white; }
     #mainContent .prevBox img {
       margin-top: 6px;
       margin-left: 6px;
@@ -130,35 +236,43 @@ nav {
       bottom: 0;
       height: 30px;
       width: 230px;
-      background-color: #0097e6;
       padding: 5px;
       text-align: center;
       margin: 5px;
       vertical-align: middle; }
+      #mainContent .prevBox .preview a {
+        text-decoration: none;
+        color: white; }
+      #mainContent .prevBox .preview a:hover {
+        text-decoration: underline;
+        color: black; }
       #mainContent .prevBox .preview h3 {
         margin: 0;
         margin-top: 5px; }
-  #mainContent #row1 {
-    display: flex;
-    justify-content: space-around; }
-    #mainContent #row1 .box1 {
-      flex: 1; }
-    #mainContent #row1 .box2 {
-      flex: 1; }
-    #mainContent #row1 .box3 {
-      flex: 1; }
-    #mainContent #row1 .box4 {
-      flex: 1; }
-  #mainContent #row2 {
-    display: flex;
-    justify-content: space-around; }
-    #mainContent #row2 .box5 {
-      flex: 1; }
-    #mainContent #row2 .box6 {
-      flex: 1; }
-    #mainContent #row2 .box7 {
-      flex: 1; }
-    #mainContent #row2 .box8 {
-      flex: 1; }
+
+#mainContent2 {
+  width: 75%;
+  margin-top: 80px;
+  margin-left: 250px; }
+  #mainContent2 img {
+    width: 800px;
+    height: 700px;
+    margin-bottom: 100px; }
+  #mainContent2 .itemContent {
+    float: right;
+    width: 200px;
+    height: auto;
+    margin-top: 100px;
+    margin-right: 240px;
+    border: 1px solid white;
+    background-color: #ff3838;
+    padding: 15px; }
+    #mainContent2 .itemContent h2 {
+      font-size: 60px;
+      margin: 0;
+      padding: 10px;
+      color: #f5f6fa; }
+    #mainContent2 .itemContent p {
+      margin: 0px; }
 
 /*# sourceMappingURL=style.css.map */

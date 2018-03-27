@@ -27,7 +27,6 @@ header {
 nav {
   height: 38px;
   margin-bottom: 0px;
-  // padding: 0px;
   background-color: #ff5e57;
   #navLogo {
     float: left;
@@ -108,7 +107,7 @@ nav {
       font-size: 20px;
       line-height: 65px;
     }
-    .green {
+    .red {
       background-color: red;
       font-style: bold;
       a {
@@ -123,7 +122,7 @@ nav {
       }
     }
 
-    .red {
+    .green {
       background-color: #4cd137;
       font-style: bold;
       a {
@@ -355,3 +354,122 @@ nav {
     }
   }
 }
+
+#mainContent3 {
+  margin: 0 auto;
+  margin-top: 70px;
+  max-width: 85%;
+
+  #row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .box1 {
+      flex: 1;
+      .preview{
+        background-color: red;
+        border: 1px solid black;
+      }
+    }
+    .box2 {
+      flex: 1;
+      .preview {
+      background-color: red;
+      border: 1px solid black;
+      }
+    }
+    .box3 {
+      flex: 1;
+      .preview {
+      background-color: red;
+      border: 1px solid black;
+      }
+    }
+    .box4{
+      flex: 1;
+      .preview {
+      background-color: red;
+      border: 1px solid black;
+      }
+    }
+  }
+  #row2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    .box5 {
+      flex: 1;
+      .preview {
+      background-color: red;
+      border: 1px solid black;
+      }
+    }
+    .box6 {
+      flex: 1;
+      .preview {
+      background-color: red;
+      border: 1px solid black;
+      }
+    }
+    .box7 {
+      flex: 1;
+      .preview {
+      background-color: red;
+      border: 1px solid black;
+      }
+    }
+    .box8 {
+      flex: 1;
+      .preview {
+      background-color: red;
+      border: 1px solid black;
+      }
+    }
+  }
+    .prevBox {
+      position: relative;
+      height: 220px;
+      width: 250px;
+      max-width: 250px;
+      background-color: #EA2027;
+
+      .priceText{
+        float: right;
+        width: 30%;
+        margin-top: 30px;
+        margin-right: 10px;
+        color: white;
+      }
+      img{
+        margin-top: 6px;
+        margin-left: 6px;
+        width: 150px;
+        height: 163px;
+      }
+      .preview{
+        position: absolute;
+        bottom: 0;
+        height: 30px;
+        width: 230px;
+        // background-color: #0097e6;
+        padding: 5px;
+        text-align: center;
+        margin: 5px;
+        vertical-align: middle;
+          a {
+            text-decoration: none;
+            color: white;
+          }
+          a:hover {
+            text-decoration: underline;
+            color: black;
+          }
+          h3{
+            margin: 0;
+            margin-top: 5px;
+          }
+        }
+      }
+}
+/* END OF CSS */

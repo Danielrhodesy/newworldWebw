@@ -90,25 +90,25 @@ nav {
     font-weight: bold;
     font-size: 20px;
     line-height: 65px; }
-  #mainBox .green {
-    background-color: red;
-    font-style: bold; }
-    #mainBox .green a {
-      text-decoration: none;
-      color: white;
-      padding: 22px 18px 27px 17.5px; }
-    #mainBox .green a:hover {
-      background-color: white;
-      color: red;
-      text-decoration: underline; }
   #mainBox .red {
-    background-color: #4cd137;
+    background-color: red;
     font-style: bold; }
     #mainBox .red a {
       text-decoration: none;
       color: white;
-      padding: 22px 42px 27px 42px; }
+      padding: 22px 18px 27px 17.5px; }
     #mainBox .red a:hover {
+      background-color: white;
+      color: red;
+      text-decoration: underline; }
+  #mainBox .green {
+    background-color: #4cd137;
+    font-style: bold; }
+    #mainBox .green a {
+      text-decoration: none;
+      color: white;
+      padding: 22px 42px 27px 42px; }
+    #mainBox .green a:hover {
       background-color: white;
       color: #4cd137;
       text-decoration: underline; }
@@ -274,5 +274,96 @@ nav {
       color: #f5f6fa; }
     #mainContent2 .itemContent p {
       margin: 0px; }
+
+#mainContent3 {
+  margin: 0 auto;
+  margin-top: 70px;
+  max-width: 85%; }
+  #mainContent3 #row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    #mainContent3 #row1 .box1 {
+      flex: 1; }
+      #mainContent3 #row1 .box1 .preview {
+        background-color: red;
+        border: 1px solid black; }
+    #mainContent3 #row1 .box2 {
+      flex: 1; }
+      #mainContent3 #row1 .box2 .preview {
+        background-color: red;
+        border: 1px solid black; }
+    #mainContent3 #row1 .box3 {
+      flex: 1; }
+      #mainContent3 #row1 .box3 .preview {
+        background-color: red;
+        border: 1px solid black; }
+    #mainContent3 #row1 .box4 {
+      flex: 1; }
+      #mainContent3 #row1 .box4 .preview {
+        background-color: red;
+        border: 1px solid black; }
+  #mainContent3 #row2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px; }
+    #mainContent3 #row2 .box5 {
+      flex: 1; }
+      #mainContent3 #row2 .box5 .preview {
+        background-color: red;
+        border: 1px solid black; }
+    #mainContent3 #row2 .box6 {
+      flex: 1; }
+      #mainContent3 #row2 .box6 .preview {
+        background-color: red;
+        border: 1px solid black; }
+    #mainContent3 #row2 .box7 {
+      flex: 1; }
+      #mainContent3 #row2 .box7 .preview {
+        background-color: red;
+        border: 1px solid black; }
+    #mainContent3 #row2 .box8 {
+      flex: 1; }
+      #mainContent3 #row2 .box8 .preview {
+        background-color: red;
+        border: 1px solid black; }
+  #mainContent3 .prevBox {
+    position: relative;
+    height: 220px;
+    width: 250px;
+    max-width: 250px;
+    background-color: #EA2027; }
+    #mainContent3 .prevBox .priceText {
+      float: right;
+      width: 30%;
+      margin-top: 30px;
+      margin-right: 10px;
+      color: white; }
+    #mainContent3 .prevBox img {
+      margin-top: 6px;
+      margin-left: 6px;
+      width: 150px;
+      height: 163px; }
+    #mainContent3 .prevBox .preview {
+      position: absolute;
+      bottom: 0;
+      height: 30px;
+      width: 230px;
+      padding: 5px;
+      text-align: center;
+      margin: 5px;
+      vertical-align: middle; }
+      #mainContent3 .prevBox .preview a {
+        text-decoration: none;
+        color: white; }
+      #mainContent3 .prevBox .preview a:hover {
+        text-decoration: underline;
+        color: black; }
+      #mainContent3 .prevBox .preview h3 {
+        margin: 0;
+        margin-top: 5px; }
+
+/* END OF CSS */
 
 /*# sourceMappingURL=style.css.map */
